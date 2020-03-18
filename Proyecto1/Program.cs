@@ -10,8 +10,13 @@ namespace Proyecto1
     {
         static void Main(string[] args)
         {
+            // instancia
+            Person person = new Person();
 
-            int randomNumber = new Random().Next(0, 2);
+            //metodo
+            person.Lanzar();
+
+            Console.ReadLine();
 
         }
     }

@@ -6,7 +6,17 @@ using System.Threading.Tasks;
 
 namespace Proyecto1
 {
-    class Class1
+    class Person
     {
+        //Atributo
+        private String nombre;
+        private String apellido;
+
+        public void Lanzar()
+        {
+            int randomNumber = new Random().Next(0, 2);
+            Console.WriteLine(randomNumber);
+        }
+
     }
 }
