@@ -9,18 +9,24 @@ namespace Proyecto1
     class Person
     {
         //Atributo
-        private String nombre;
-        private String apellido;
+        private string name;
+        private string lastname;
 
-        public Person(String nombre, String apellido)
+    
+      
+
+
+    public Person(string name, string lastname)
         {
-            this.nombre = nombre;
-            this.apellido = apellido;
+            this.name = name;
+            this.lastname = lastname;
+
         }
+
 
         public void Lanzar()
         {
-            int randomNumber = new Random().Next(0, 2);
+            int randomNumber = new Random().Next(0, 3);
             Console.WriteLine(randomNumber);
         }
 

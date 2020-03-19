@@ -11,11 +11,11 @@ namespace Proyecto1
         static void Main(string[] args)
         {
             // instancia
-            Person person = new Person("juan","martinez");
+            Person p = new Person("Bob","Kunga");
+
 
             //metodo
-            person.Lanzar();
-
+            p.Lanzar();
             Console.ReadLine();
 
         }
