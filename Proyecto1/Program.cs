@@ -11,7 +11,7 @@ namespace Proyecto1
         static void Main(string[] args)
         {
             // instancia
-            Person person = new Person();
+            Person person = new Person("juan","martinez");
 
             //metodo
             person.Lanzar();

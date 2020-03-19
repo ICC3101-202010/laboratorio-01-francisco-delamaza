@@ -12,6 +12,12 @@ namespace Proyecto1
         private String nombre;
         private String apellido;
 
+        public Person(String nombre, String apellido)
+        {
+            this.nombre = nombre;
+            this.apellido = apellido;
+        }
+
         public void Lanzar()
         {
             int randomNumber = new Random().Next(0, 2);
